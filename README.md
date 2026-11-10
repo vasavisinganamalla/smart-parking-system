@@ -19,3 +19,7 @@ A lightweight full-stack parking management system built to demonstrate core Obj
    ```bash
    cd backend
    mvn spring-boot:run
+2. **Start the Frontend:**
+   ```bash
+   cd /Users/vasavisinganamalla/projects/smart-parking-system/frontend
+   python3 -m http.server 5500
