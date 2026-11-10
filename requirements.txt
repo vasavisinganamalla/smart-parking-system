@@ -1,0 +1,4 @@
+Java Development Kit (JDK): version 17 or higher
+Apache Maven: version 3.8+
+Spring Boot Starter Web: version 3.2.0
+Modern Web Browser (Chrome / Edge / Firefox)

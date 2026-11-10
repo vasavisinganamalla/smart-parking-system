@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Parking Allocator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Parking Allocator</h1>
+
+        <div class="card">
+            <h2>Park Vehicle</h2>
+            <div class="form-row">
+                <input type="text" id="plateInput" placeholder="Plate Number (e.g. AP21AB1234)">
+                <select id="typeSelect">
+                    <option value="CAR">Car (₹20/hr)</option>
+                    <option value="BIKE">Bike (₹10/hr)</option>
+                </select>
+                <button onclick="handlePark()">Park</button>
+            </div>
+        </div>
+
+        <div id="statusMessage" class="status-box"></div>
+
+        <div class="card">
+            <h2>Parking Slots</h2>
+            <div id="parkingGrid" class="parking-grid"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

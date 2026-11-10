@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 24px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+}
+
+input {
+    flex: 2;
+}
+
+select {
+    flex: 1;
+}
+
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.status-box {
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.parking-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.spot-card {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+
+.spot-available {
+    background: #f0fdf4;
+    border-color: #22c55e;
+    color: #15803d;
+}
+
+.spot-occupied {
+    background: #fef2f2;
+    border-color: #ef4444;
+    color: #b91c1c;
+}
+
+.spot-card button {
+    margin-top: 10px;
+    background-color: #ef4444;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+.spot-card button:hover {
+    background-color: #dc2626;
+}
